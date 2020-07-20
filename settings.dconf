@@ -1,0 +1,57 @@
+[desktop/interface]
+clock-show-weekday=true
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Yaru'
+show-battery-percentage=true
+
+[shell/extensions/dash-to-dock]
+dock-fixed=true
+preferred-monitor=0
+
+[shell/extensions/desktop-icons]
+show-home=false
+show-trash=false
+
+[shell/extensions/emoji-selector]
+recently-used=['😆', '😀', '♥', '🦄', '👉', '🌱', '🖊', '🥚', '🍧', '🍰', '💜']
+
+[terminal/legacy]
+theme-variant='light'
+
+[terminal/legacy/profiles:]
+default='5fa262f2-4bf6-4f22-b87f-32eabd364ef6'
+list=['1d7d8ac5-2334-4bb9-8bcc-c541ef556dd8', '5fa262f2-4bf6-4f22-b87f-32eabd364ef6']
+
+[terminal/legacy/profiles:/:1d7d8ac5-2334-4bb9-8bcc-c541ef556dd8]
+allow-bold=true
+background-color='#f4f4f4f4f4f4'
+background-transparency-percent=20
+bold-color='#3e3e3e3e3e3e'
+bold-color-same-as-fg=true
+foreground-color='#3e3e3e3e3e3e'
+highlight-background-color='#'
+highlight-colors-set=true
+highlight-foreground-color='#'
+palette=['#3e3e3e3e3e3e', '#97970b0b1616', '#070796962a2a', '#f8f8eeeec7c7', '#00003e3e8a8a', '#e9e946469191', '#8989d1d1ecec', '#ffffffffffff', '#666666666666', '#dede00000000', '#8787d5d5a2a2', '#f1f1d0d00707', '#2e2e6c6cbaba', '#ffffa2a29f9f', '#1c1cfafafefe', '#ffffffffffff']
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=false
+visible-name='Github'
+
+[terminal/legacy/profiles:/:5fa262f2-4bf6-4f22-b87f-32eabd364ef6]
+allow-bold=true
+background-color='#2C2C2C2C2C2C'
+background-transparency-percent=20
+bold-color='#CCCCCCCCCCCC'
+bold-color-same-as-fg=true
+foreground-color='#CCCCCCCCCCCC'
+highlight-background-color='#'
+highlight-colors-set=true
+highlight-foreground-color='#'
+palette=['#000000000000', '#F2F277777979', '#9999CCCC9999', '#FFFFCCCC6666', '#66669999CCCC', '#CCCC9999CCCC', '#6666CCCCCCCC', '#FFFFFEFEFEFE', '#000000000000', '#F1F177777979', '#9999CCCC9999', '#FFFFCCCC6666', '#66669999CCCC', '#CCCC9999CCCC', '#6666CCCCCCCC', '#FFFFFEFEFEFE']
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=false
+visible-name='Tomorrow Night Eighties'

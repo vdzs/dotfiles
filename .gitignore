@@ -1,0 +1,9 @@
+.config/
+.env
+.gitconfig
+.ssh
+.vscode/extensions/
+id_*
+powerline-shell/
+scripts/powerline-shell
+scripts/powerline_shell.egg-info/

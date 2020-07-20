@@ -1,0 +1,190 @@
+{
+    "editor.fontFamily": "'JetBrains Mono','SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
+    "files.autoSaveDelay": 1500,
+    "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
+    "window.zoomLevel": 0,
+    "editor.autoClosingBrackets": "always",
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django"
+    ],
+    "[markdown]": {
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 100,
+        "editor.quickSuggestions": false,
+    },
+    "markdownlint.ignore": [
+        "CHANGELOG.md"
+    ],
+    "spellchecker.checkInterval": 15000,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "workbench.iconTheme": "vscode-icons",
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
+    "beautify.config": {
+        "indent_size": 4,
+        "indent_char": " ",
+        "css": {
+            "indent_size": 2
+        }
+    },
+    "beautify.language": {
+        "html": [
+            "htm",
+            "html",
+            "django-html"
+        ],
+        "css": [
+            "sass",
+            "scss"
+        ]
+    },
+    "go.formatTool": "goimports",
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "bracketPairColorizer.forceIterationColorCycle": true,
+    "cSpell.userWords": [
+        "Beeblebrox",
+        "CloudFormation",
+        "Dalek",
+        "FIPS",
+        "NIST",
+        "OWASP",
+        "Pipfile",
+        "YAGNI",
+        "anonymize",
+        "anonymized",
+        "asynchronicity",
+        "boto",
+        "botocore",
+        "caffeination",
+        "canonicalization",
+        "changelogs",
+        "commoditized",
+        "cybersecurity",
+        "distro",
+        "dotfiles",
+        "executables",
+        "fooey",
+        "isort",
+        "markdownlint",
+        "multifactor",
+        "pentesting",
+        "performant",
+        "pipenv",
+        "postgres",
+        "powerline",
+        "prepend",
+        "printf",
+        "pylint",
+        "pytest",
+        "pytz",
+        "reassociated",
+        "rebased",
+        "repos",
+        "shortcode",
+        "soteria",
+        "stateful",
+        "strcat",
+        "strcpy",
+        "struct",
+        "stubber",
+        "subproblems",
+        "templating",
+        "tinymce",
+        "treehouse",
+        "unencrypted",
+        "unintuitive",
+        "vaporwave",
+        "wirelessly"
+    ],
+    "vscode_custom_css.policy": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "cSpell.enableFiletypes": [
+        "asciidoc",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "git-commit",
+        "go",
+        "handlebars",
+        "haskell",
+        "html",
+        "jade",
+        "java",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "jsonc",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "pug",
+        "python",
+        "restructuredtext",
+        "rust",
+        "scala",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yaml",
+        "yml"
+    ],
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "markdown.preview.fontSize": 21,
+    "window.restoreFullscreen": true,
+    "window.restoreWindows": "none",
+    "window.closeWhenEmpty": true,
+    "window.newWindowDimensions": "inherit",
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "sasslint.enable": false,
+    "go.useLanguageServer": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "debug.console.fontSize": 16,
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "bracketPairColorizer.forceUniqueOpeningColor": true,
+    "bracketPairColorizer.activeScopeCSS": [
+        "backgroundColor : {color}",
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}; opacity: 0.5"
+    ],
+    "editor.matchBrackets": "never",
+    "bracketPairColorizer.highlightActiveScope": true,
+    "python.formatting.provider": "black",
+    "python.analysis.logLevel": "Trace",
+    "python.linting.mypyEnabled": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "standard.autoFixOnSave": true,
+    "html.format.endWithNewline": true,
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/templates/**/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "python.jediEnabled": false,
+    "highlightLine.borderWidth": "1px",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "markdown.extension.toc.levels": "2..6",
+    "python.languageServer": "Microsoft",
+}
