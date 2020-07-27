@@ -35,6 +35,7 @@ install pipenv
 install tree
 install vim
 install wget
+install xclip
 
 # Image processing
 install gimp
@@ -54,4 +55,3 @@ sudo apt autoremove -y
 
 # Fun hello
 figlet "Hello!" | lolcat
-

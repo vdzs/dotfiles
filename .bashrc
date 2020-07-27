@@ -7,6 +7,7 @@ HISTFILESIZE=2000
 shopt -s histappend
 
 # Aliases
+alias clip='xclip -sel c'
 alias cp='cp -Rv'
 alias ls='ls --color=auto -ACF'
 alias ll='ls --color=auto -alF'
@@ -14,6 +15,8 @@ alias grep='grep --color=auto'
 alias grepw='grep --color=auto -Hrnwi'
 alias mkdir='mkdir -pv'
 alias mv='mv -v'
+alias tree="tree -aI 'test*|node_modules|.git'"
+alias weather='curl wttr.in/?0'
 alias wget='wget -c'
 
 git config --global alias.gcom commit
@@ -22,6 +25,7 @@ git config --global alias.goto checkout
 alias gcom='git commit'
 alias gsup='git status'
 alias goto='git checkout'
+alias branches='git branch -v'
 alias firewood='for remote in `git branch -r`; do git branch --track ${remote#origin/} $remote; done'
 
 alias pip='pip3'
