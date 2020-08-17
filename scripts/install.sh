@@ -19,7 +19,6 @@ function install {
 
 # Basics
 install auditd
-install awscli
 install bats
 install chrome-gnome-shell
 install chromium-browser
