@@ -16,20 +16,25 @@ alias grepw='grep --color=auto -Hrnwi'
 alias mkdir='mkdir -pv'
 alias mv='mv -v'
 alias tree="tree -aI 'test*|node_modules|.git'"
-alias weather='curl wttr.in/?0'
 alias wget='wget -c'
 
-git config --global alias.gcom commit
-git config --global alias.gsup status
-git config --global alias.goto checkout
+# Bash completion for Git
+if [ -f ~/.git-completion.bash ]; then
+    . ~/.git-completion.bash
+
+    # Add git completion to aliases
+    __git_complete goto _git_checkout
+fi
+
+alias branches='git branch -v'
 alias gcom='git commit'
 alias gsup='git status'
 alias goto='git checkout'
-alias branches='git branch -v'
 alias firewood='for remote in `git branch -r`; do git branch --track ${remote#origin/} $remote; done'
+alias logone='git log --pretty=oneline'
+alias sweep='git branch --merged master |grep -v -e master| xargs -n 1 git branch -d'
 alias remotes='git remote -v'
 
-alias pip='pip3'
 alias pym='python3 manage.py'
 alias mkenv='python3 -m venv env'
 alias startenv='source env/bin/activate && which python3'
@@ -54,7 +59,7 @@ function getgolang () {
     go version
 }
 
-# GHCLI install or upgrade
+# GitHub CLI install or upgrade
 function getghcli () {
     wget -q -P tmp/ https://github.com/cli/cli/releases/download/v"$@"/gh_"$@"_linux_amd64.deb
     cd tmp/ && sudo dpkg -i gh_"$@"_linux_amd64.deb
@@ -73,9 +78,6 @@ export GOPATH=~/go
 
 # Vim for life
 export EDITOR=/usr/bin/vim
-
-# Bash completion
-source ~/.git-completion.bash
 
 # Use powerline-shell prompt
 function _update_ps1() {
