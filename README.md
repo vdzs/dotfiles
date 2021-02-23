@@ -7,10 +7,9 @@ A convenient starting configuration for Ubuntu Desktop. Current version 20.04 Fo
 - The programs included in `scripts/programs/`, some of which are:
   - Docker
   - Firefox Next
-  - Hugo and Jekyll
   - Node and npm installed via nvm
   - Python
-  - Visual Studio Code with awesomely helpful extensions and pre-configured settings
+  - Visual Studio Code with extensions
 
 Modify files in `scripts/install.sh` and `scripts/programs/` to modify your installation. Please verify that you understand the programs that will be installed before running the script.
 
@@ -32,6 +31,8 @@ git clone https://github.com/vdzs/dotfiles.git
 ```
 
 You may optionally like to pass the `--depth` argument to clone only a few of the [most recent commits](https://github.com/vdzs/dotfiles/commits/master).
+
+Examine the files in `scripts/programs/` and ensure you want them all installed. Remove any scripts for programs you don't want. Likewise, examine `install.sh`.
 
 Close your web browser if it's open, then run the installation script.
 
