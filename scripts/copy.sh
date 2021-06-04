@@ -10,3 +10,4 @@ cp .git-completion.bash ${HOME}
 cp .gitmessage ${HOME}
 cp .bash_profile ${HOME}
 cp .vimrc ${HOME}
+dconf load /org/gnome/terminal/ < gnome_terminal_settings_backup.txt

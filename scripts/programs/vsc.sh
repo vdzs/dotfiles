@@ -25,6 +25,7 @@ install davidanson.vscode-markdownlint
 install eg2.vscode-npm-script
 install emmanuelbeziat.vscode-great-icons
 install foxundermoon.shell-format
+install github.github-vscode-theme
 install github.vscode-pull-request-github
 install glen-84.sass-lint
 install golang.go
