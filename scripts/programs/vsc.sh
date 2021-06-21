@@ -22,6 +22,7 @@ install christian-kohler.npm-intellisense
 install cliffordfajardo.highlight-line-vscode
 install coenraadS.bracket-pair-colorizer-2
 install davidanson.vscode-markdownlint
+install eamodio.gitlens
 install eg2.vscode-npm-script
 install emmanuelbeziat.vscode-great-icons
 install foxundermoon.shell-format
@@ -33,7 +34,6 @@ install gruntfuggly.todo-tree
 install hookyqr.beautify
 install joaompinto.vscode-graphviz
 install killalau.vscode-liquid-snippets
-install liviuschera.noctis
 install ms-azuretools.vscode-docker
 install ms-python.python
 install ms-python.vscode-pylance
@@ -44,7 +44,5 @@ install rido3.wordcount
 install simonsiefke.svg-preview
 install stkb.rewrap
 install streetsidesoftware.code-spell-checker
-install victoriadrake.kabukicho
 install vscode-icons-team.vscode-icons
 install yzhang.markdown-all-in-one
-install zxh404.vscode-proto3

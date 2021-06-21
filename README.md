@@ -1,6 +1,6 @@
-# Dotfiles for Ubuntu 20.04
+# Dotfiles for Ubuntu
 
-A convenient starting configuration for Ubuntu Desktop. Current version 20.04 Focal Fossa. This includes:
+A convenient starting configuration for Ubuntu Desktop or similar OS. This includes:
 
 - A suggested serving of standard repository programs (see `scripts/install.sh`)
 - The [powerline-shell terminal prompt](https://github.com/b-ryan/powerline-shell)
@@ -88,6 +88,10 @@ dconf dump /org/gnome/ > settings.dconf
 ```
 
 Run `man dconf` on your machine for more.
+
+### Set up SSH keys for GitHub
+
+See [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
 ## Recommended additions
 

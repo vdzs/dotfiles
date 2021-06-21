@@ -7,6 +7,9 @@ help: ## Show this help
 dconf-dump: ## Save dconf settings to .config/dconf/settings.dconf
 	dconf dump /org/gnome/ > ~/.config/dconf/settings.dconf
 
+dconf-load: ## Load dconf settings from .config/dconf/settings.dconf
+	dconf load /org/gnome/ < ~/.config/dconf/settings.dconf
+
 vsc-extensions: ## Save a list of VSC extensions to .config/Code/extensions.txt
 	ls .vscode/extensions/ > ~/.config/Code/extensions.txt
 
